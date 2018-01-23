@@ -13,8 +13,8 @@
   "dependencies": {
     "archieml": "^0.4.2",
     "body-parser": "^1.16.1",
-    "ejs": "2.4.1",
-    "express": "4.13.3",
+    "ejs": "^2.4.1",
+    "express": "^4.13.3",
     "fullpage.js": "^2.9.2",
     "google-auth-library": "^0.10.0",
     "googleapis": "^16.1.0",
