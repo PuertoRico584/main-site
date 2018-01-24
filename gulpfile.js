@@ -8,8 +8,8 @@ var archieml = require('archieml');
 var parsed = archieml.load('key: value');
 var fs = require('fs');
 
-var navEnglish = ["The Real Queens", "Cutting Edge", "Across the Harbor", "Viva la Familia", "Revolution on Wheels", "About", "About the Project"];
-var navSpanish = ["Las reinas verdaderas", "A la vanguardia", "Cruzando la bahía", "Viva la familia", "Revolución sobre ruedas", "Sobre nosotros", "Sobre el proyecto"];
+var navEnglish = ["Nav Item 1", "Nav Item 2", "Nav Item 3", "Nav Item 4", "Nav Item 5", "About", "About the Project"];
+var navSpanish = ["Navigacion 1", "Navigacion 2", "Navigacion 3", "Navigacion 4", "Navigacion 5", "Sobre nosotros", "Sobre el proyecto"];
 
 gulp.task('connect', function(){
 
@@ -20,7 +20,7 @@ gulp.task('connect', function(){
   app.set('view engine', 'ejs');
 
   app.listen(app.get('port'), function() {
-    console.log('Node app is running on port', app.get('port'));
+    console.log('Node app WOO is running on port', app.get('port'));
   });
 
   app.get('/', function(request, response) {

@@ -145,9 +145,9 @@ $(document).ready(function(){
       <%} else if (body["text"][i]["type"] == "interactive") {%>
       </div>
     </section>
-
+<!-- This is the lil bit of code that is killing my spirit. -->
     <% var filepath = body["text"][i]["value"]["filename"] %>
-      <%- include(filepath); %>
+  
            <section class="center-wrapper">
              <div class="max-width">
 

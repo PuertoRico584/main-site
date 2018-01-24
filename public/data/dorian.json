@@ -18,13 +18,13 @@
   ],
   "videographers": [
     {
-      "name": "Ben Aijian"
+      "name": "Peyton Chance"
     },
     {
-      "name": "Darian Woehr"
+      "name": "Peyton Chance"
     },
     {
-      "name": "Emily Yue"
+      "name": "Peyton Chance"
     }
   ],
   "designers": [
@@ -50,12 +50,6 @@
     {
       "type": "text",
       "value": "Across the salon stands the other Carbonell brother sporting a far less eccentric style. Clean-shaven and tanned from the Havana sun, Damian Carbonell studies the screen of his phone instead of his brother’s chromatic creations. He leans over, boasting about the salon’s updated website accessible through Wi-Fi in the salon, a rare arrangement in Cuba where internet access usually requires a prepaid government card that can only be used in certain hotspots."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/wifi-access.ejs"
-      }
     },
     {
       "type": "text",
