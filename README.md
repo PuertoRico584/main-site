@@ -1,4 +1,5 @@
-# "Cuba's New Wave" Main Site
+# Puerto Rico 584 Main Site
+From Cuba's News Wave - Node App written by Lindsay Carbonell & Kate Boyd
 
 ## Installation
 
