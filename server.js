@@ -36,6 +36,7 @@ app.get('/pages/:id', function(req, res){
   var bodyData;
   var internetData;
   //Lindsay's interactive data
+  // internetData = JSON.parse(fs.readFileSync('./public/data/internet.json'));
   if (isEspanol(req)){
     bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + 'espanol.json'));
   } else {
