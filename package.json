@@ -5,9 +5,9 @@
   "engines": {
     "node": "5.9.1"
   },
-  "main": "server.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node gulpfile.js",
     "sass": "node_modules/.bin/node-sass sass/ -o public/stylesheets/"
   },
   "dependencies": {

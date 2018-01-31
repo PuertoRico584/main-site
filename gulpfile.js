@@ -40,7 +40,7 @@ gulp.task('connect', function(){
     var internetData;
 
     //Lindsay's interactive data
-    internetData = JSON.parse(fs.readFileSync('./public/data/internet.json'));
+    // internetData = JSON.parse(fs.readFileSync('./public/data/internet.json'));
 
   	if (isEspanol(req)){
   		bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + 'espanol.json'));

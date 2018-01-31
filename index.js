@@ -45,10 +45,10 @@ app.get('/about', function(request, response){
 app.get('/pages/:id', function(req, res){
   var pageName = req.params.id;
   var bodyData;
-  var internetData;
-
-  //Lindsay's interactive data
-  internetData = JSON.parse(fs.readFileSync('./public/data/internet.json'));
+  // var internetData;
+  //
+  // //Lindsay's interactive data
+  // internetData = JSON.parse(fs.readFileSync('./public/data/internet.json'));
 
   if (isEspanol(req)){
     bodyData = JSON.parse(fs.readFileSync('./public/data/' + pageName + 'espanol.json'));
