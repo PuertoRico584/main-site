@@ -14,6 +14,7 @@ var navSpanish = ["Navigacion 1", "Navigacion 2", "Navigacion 3", "Navigacion 4"
 gulp.task('connect', function(){
 
   app.set('port', (process.env.PORT || 5000));
+  console.log("Testing - Willpower");
   app.use(express.static(__dirname + '/public'));
 
   app.set('views', __dirname + '/views');
