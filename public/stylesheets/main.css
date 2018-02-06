@@ -369,10 +369,10 @@ further down on the page or in any of the other .SCSS files.
   transition-property: none; }
 
 .harbor.subhead {
-  color: #6EA5C2; }
+  color: pink; }
 
 .harbor.title {
-  color: #6EA5C2;
+  color: pink;
   width: 100%;
   margin-left: auto;
   margin-right: auto; }
@@ -381,20 +381,20 @@ further down on the page or in any of the other .SCSS files.
   font-size: 2.7em; }
 
 .harbor.interactive {
-  color: #6EA5C2; }
+  color: pink; }
 
 .harbor.change-bg {
   background: url("textures/harbor.JPG") no-repeat;
   background-size: cover;
-  color: #6EA5C2;
-  background-color: #6EA5C2; }
+  color: pink;
+  background-color: pink; }
 
 @media screen and (min-width: 1020px) {
   .harbor.change-mobile-bg {
     background: none;
     background-size: cover;
-    color: #6EA5C2;
-    background-color: #6EA5C2;
+    color: pink;
+    background-color: pink;
     height: 45px; } }
 
 .harbor.nav-title-footer:after {
@@ -439,11 +439,11 @@ further down on the page or in any of the other .SCSS files.
 
 .harbor.nav-title:hover:after {
   width: 100%;
-  background: #6EA5C2; }
+  background: pink; }
 
 .harbor.nav-title.active-nav:after {
   width: 100%;
-  background: #6EA5C2;
+  background: pink;
   transition-property: none; }
 
 .harbor.mobile-active-nav span {
@@ -456,7 +456,7 @@ further down on the page or in any of the other .SCSS files.
   height: 3px;
   width: 100%;
   margin-top: -3%;
-  background: #6EA5C2;
+  background: pink;
   transition-property: none; }
 
 .about.subhead {
@@ -915,7 +915,7 @@ nav {
   .harbor.change-mobile-bg {
     background: none;
     background-size: cover;
-    color: #6EA5C2; } }
+    color: pink; } }
 
 @media screen and (max-width: 570px) and (min-width: 1020px) {
   .about.change-mobile-bg {
