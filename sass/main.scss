@@ -234,6 +234,12 @@ h4 {font-size: 1.125em;
 header {
   @include header-footer;
 }
+/* ------------------ HOMEPAGE ------------------ */
+.homepage {
+  background-image:url(http://sliceinteractive.com/mejo584/wavvy.jpg);
+  background-size:cover;
+}
+
 
 /* ------------------ Navigation ------------------ */
 
@@ -255,7 +261,7 @@ header{
 
 nav {
   height: $nav-height;
-  background-color: #fff;
+  background-color: #000;
   opacity: 1;
   font-family: $montserrat;
   font-size:.93em;
@@ -269,13 +275,12 @@ nav {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
-  width: 850px;
   padding: 0;
   font-weight: 400;
-  margin:45px 0 15px 0;
+  margin:0;
 
     a {
-      color: #484848;
+      color: #fff;
       position: relative;
       text-decoration: none;
       background-color:transparent;
@@ -308,7 +313,7 @@ nav {
   }
   .nav-icons {
     flex-wrap: wrap;
-    margin:39px .5em 15px 0;
+    margin:0;
 
   }
   .logo-wrapper {
@@ -366,7 +371,7 @@ nav {
    }
 
     a{
-      color:$main-text-color;
+      color:#fff;
       text-decoration:none;
     }
   }
@@ -536,28 +541,7 @@ nav {
 
   /*------------------ RESPONSIVE NAV STYLES ---------*/
 
-  @include media("screen", ">=xl"){
-    nav{
-      // padding-bottom:15px;
-      font-size:1.05em;
-      ul{
-        width:1230px;
-        // li::after{
-        //   content:'\2022';
-        //   display:inline;
-        // }
-      }
-    }
-  }
-
-    @include media("screen", "<=lg"){
       nav {
-
-        .logo-wrapper{
-          #svg-logo{
-            // width:120px;
-          }
-        }
 
         ul{
           font-size:.9em;
@@ -566,10 +550,6 @@ nav {
         nav{
           ul{
             width:57%;
-          }
-
-          .nav-icons{
-            margin:39px 0 15px 0;
           }
         }
         .sm-icons {
@@ -588,7 +568,7 @@ nav {
         }
 
       }
-    }
+
 
     @include media('screen', "<=nav-mid"){
       nav{
@@ -640,10 +620,10 @@ nav {
       #nav-container {
         display: inline-block;
         .bar1, .bar2, .bar3 {
-          width: 29px;
+          width: 25px;
           height: 3px;
-          margin: 6px 0;
-          background: #484848;
+          margin: 5px 0;
+          background: #fff;
           transition: 0.4s;
         }
       }
