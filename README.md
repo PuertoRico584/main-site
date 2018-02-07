@@ -1,12 +1,12 @@
-# Puerto Rico 584 Main Site
+# Wavy - A Node App
 From Cuba's News Wave - Node App written by Lindsay Carbonell & Kate Boyd
+This App is perfect for longform multimedia projects.
 
 ## Installation
 
 1. Install these dependencies if you don't already have them:
   - [Git](https://sourceforge.net/projects/git-osx-installer/)
   - [NodeJS](https://nodejs.org/en/download/)
-  - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
   - Gulp CLI
     - to install, run ``npm install -g gulp-cli`` AFTER you install NodeJS
 
@@ -16,7 +16,7 @@ From Cuba's News Wave - Node App written by Lindsay Carbonell & Kate Boyd
 
 3. Clone this repository by running:
 
-  `git clone https://github.com/Cuba584/main-site/`
+  `git clone https://github.com/PuertoRico584/node-sandbox`
 
   And then cd into that folder:
 
@@ -49,12 +49,6 @@ You are now set up to run the project locally, and unless you delete this folder
 2. Open the browser of your choice and navigate to:
 
   `localhost:5000`
-
-## Deploying Site Changes
-
-1. Pushing to the `master` branch will automatically deploy changes to the site. You can also check progress of the deployment and push other branches to deployment in the Heroku dashboard.
-
-2. The site is located at [cubayouth.herokuapp.com](cubayouth.herokuapp.com).
 
 ## Updating Articles
 
