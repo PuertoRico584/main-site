@@ -7,26 +7,26 @@
     "attribution": "Rob Gourley"
   },
   "header": {
-    "text": "Cruzando la bahía",
-    "seo": "Cruzando la bahía: Un joven cubano que trabaja en el turismo puentes dos mundos a través de su viaje diario a Regla",
-    "subtitle": "Un conmute puentea dos mundos"
+    "text": "Historia ejemplar",
+    "seo": "Historia ejemplar: Wavy un app de Node.js",
+    "subtitle": "Un ejemplo del poder de traducción de Wavy"
   },
   "reporters": [
     {
-      "name": "Kiana Cole"
+      "name": "John Doe"
     }
   ],
   "videographers": [
     {
-      "name": "Veasey Conway"
+      "name": "Michael Doe"
     },
     {
-      "name": "Rob Gourley"
+      "name": "Courtney Doe"
     }
   ],
   "designers": [
     {
-      "name": "Peyton Chance"
+      "name": "Layla Doe"
     }
   ],
   "text": [
@@ -118,10 +118,6 @@
       "value": "Aunque la puerta que deja de entrar los estadounidenses va abriendo, todavía no ha abrido completamente - para entrar al país, los ciudadanos de los EEUU tienen que declarar una de las doce razones publicadas por la Oficina del Control de los Valores Extranjeros (OFAC), una oficina del Departamento del Tesoro de los EEUU que impone las sanciones. Estas razones incluyen visitas familiares, actividad periodística, actividad educacional y humanitaria, pero según el tesoro, un viajero no puede visitar a Cuba solamente para el turismo."
     },
     {
-      "type": "slider",
-      "value": {}
-    },
-    {
       "type": "text",
       "value": "Pero esta no impide que los Americanos frecuenten las atracciones típicas cuando llegan al país, como visitar museos, comer en paladares, y disfrutar de un viaje por el Malecón. Por esta razón — el hecho de que el turismo no se puede controlar — la industria en que labora Orlando va logrando, aunque sus consecuencias se sienten en una parte muy específica del país: la Haban Vieja."
     },
@@ -140,12 +136,6 @@
     {
       "type": "text",
       "value": "La disparidad tiene dos lados; visitantes no viajan a Regla, pero la gente de Regla no sale, tampoco. Orlando es su vagabundo, un residente temporal que cruza a la Habana Vieja cada día y colecta reliquias del mundo externo para compartir con su comunidad. ¿Como es Santiago? ¿Los Angeles? ¿Los Estados Unidos? La mayoría de estas preguntas vienen de los viejos, los cubanos que se sienten en otro mundo que los fanáticos de Facebook que llegan a su país. Preguntan a Orlando, y está feliz sirviendo como una venta al resto del mundo."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/poemEspanol.ejs"
-      }
     },
     {
       "type": "subhead",
@@ -229,12 +219,6 @@
       "value": "Orlando no prefiere discutir el dinero que gana, no le gusta vanagloriarse. Su madre piensa que es bueno — Orlando dice que a veces ella dice que quiere una pantalla plana — pero a veces su padre aparece triste sobre la situación. Orlando recuerda a ellos que no es su propio dinero, pero el dinero de la familia. Eso es porque paga por lujos como suelos nuevos y una puerta nueva — son renovaciones prácticas, sí, pero ponen otra vez en sitio el destello de felicidad en los ojos de su padre porque tiene un propósito por primera vez desde su jubilación. Para Orlando, el destello de 1.000 dólares no es con sobreprecio."
     },
     {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/moneysliderEspanol.ejs"
-      }
-    },
-    {
       "type": "subhead",
       "value": {
         "text": "“Porque somos creativos”"
@@ -271,80 +255,6 @@
     {
       "type": "text",
       "value": "Orlando no sabe como sus dos mundos van a fusionarse en los años que vienen. Pero para hoy, está bien. Hay una lancha que los puede puentear para él."
-    }
-  ],
-  "slider-images": [
-    {
-      "src": "harbor_sl_01.jpg",
-      "alt": "Un niño en la lancha de la Habana, Cuba",
-      "attribution": "Robert Gourley",
-      "caption": "Yosue Soto viaja por la lancha desde la Habana para asistir a la escuela en Regla, Cuba, mientras sale el sol."
-    },
-    {
-      "src": "harbor_sl_02.jpg",
-      "alt": "La estación antigua de la lancha en Regla",
-      "attribution": "Robert Gourley",
-      "caption": "La estación antigua de la lancha de Regla en el primero plano plan y un crucero en el fondo. La lancha matutina lleva los pasajeros a Regla."
-    },
-    {
-      "src": "harbor_sl_03.jpg",
-      "alt": "Un pescador trabajando en la Habana",
-      "attribution": "Veasey Conway",
-      "caption": "Pescando para pescardos, un pescador trabaja en la bahía de la Habana en Regla entre las ruinas de la estación antigua."
-    },
-    {
-      "src": "harbor_sl_04.jpg",
-      "alt": "Flores en la bahía de la Habana",
-      "attribution": "Robert Gourley",
-      "caption": "Flores tirados en el agua durante un ritual de Santería flotan en la bahía con la Habana Vieja en el fondo."
-    },
-    {
-      "src": "harbor_sl_05.jpg",
-      "alt": "Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "El visto del barrio de Regla desde la Colina Lenin. The neighborhood of Regla is seen from Lenin Hill. “Regla es conocido por hacer gente fuerte,” dijo Orlando Méndez."
-    },
-    {
-      "src": "harbor_sl_06.jpg",
-      "alt": "Girl skips with family in Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "A young girl skips along with her parents after stepping off the ferry in Regla. The ferry represents a lifeline for Regla residents -- it transports professionals and schoolchildren alike."
-    },
-    {
-      "src": "harbor_sl_07.jpg",
-      "alt": "Niños juegan en un estacionamiento en Regla",
-      "attribution": "Robert Gourley",
-      "caption": "Hombres jóvenes juegan en un estacionamiento en la Colina “Lenin” en Regla."
-    },
-    {
-      "src": "harbor_sl_08.jpg",
-      "alt": "Cuban boys use payphones in Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "Uniformed boys use payphones on a streetcorner in Regla. While payphones are nearly extinct in the United States, the colorful bulb-shaped hoods are common sights around Havana."
-    },
-    {
-      "src": "harbor_sl_09.jpg",
-      "alt": "Horse grazes near Lenin Hill in Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "Un caballo pasta cerca de la Colina “Lenin.” En Regla, como otras partes de la Habana, las modas de transportación incluyen bicicletas, coches, y coches de caballo."
-    },
-    {
-      "src": "harbor_sl_10.jpg",
-      "alt": "Un hombre se apoya en un busto de Vladimir Lenin en Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "Ángel se apoya en un busto de Vladimir Lenin mientras un grupo de amigos juego el fútbol. En el día del funeral de Lenin en 1924, miles de cubanos vinieron a la colina."
-    },
-    {
-      "src": "harbor_sl_11.jpg",
-      "alt": "Man rides morning ferry to Regla, Cuba",
-      "attribution": "Robert Gourley",
-      "caption": "Un hombre viaja por la lancha en la mañana."
-    },
-    {
-      "src": "harbor_sl_12.jpg",
-      "alt": "Una exposición larga de Regla en la noche",
-      "attribution": "Robert Gourley",
-      "caption": "Un autobús maneja en las calles de Regla."
     }
   ]
 }

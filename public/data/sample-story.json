@@ -2,31 +2,27 @@
   "master-class": {
     "class": "harbor"
   },
-  "cinemagraph": {
-    "src": "harbor.mp4",
-    "attribution": "Rob Gourley"
-  },
   "header": {
-    "text": "Across the Harbor",
-    "seo": "Across the Harbor: A young Cuban who works in tourism bridges two worlds through his daily commute to Regla",
-    "subtitle": "One commute bridges two worlds"
+    "text": "Sample Story",
+    "seo": "Sample Story: Inner page of the Wavy Node app",
+    "subtitle": "Sample subtitle"
   },
   "reporters": [
     {
-      "name": "Kiana Cole"
+      "name": "John Doe"
     }
   ],
   "videographers": [
     {
-      "name": "Veasey Conway"
+      "name": "Jim Doe"
     },
     {
-      "name": "Rob Gourley"
+      "name": "Courtney Doe"
     }
   ],
   "designers": [
     {
-      "name": "Peyton Chance"
+      "name": "Elizabeth Doe"
     }
   ],
   "text": [
@@ -52,12 +48,6 @@
     {
       "type": "text",
       "value": "This rush is for Regla, a neighborhood where Orlando lives with his parents. While still technically a part of the greater Havana area, Regla feels far more removed than a five-minute ferry ride. The star that pinpoints Havana as the country’s capital on any given map of Cuba stamps right over the harbor that divides these two areas. But these regions cannot be so simply merged — the star extinguishes Regla’s individuality, its smokestacks that hint at its industrial past, its streets blemished with missing chunks of cement and its homes stained with soot. There’s less urgency on this side of the harbor; in Regla, time is a suggestion of sorts. Orlando knows that while the final ferry home is always scheduled to leave Havana’s port at 12:15 a.m., the ferry driver often decides to leave at whatever time will get him home fastest, even if it’s the wrong one."
-    },
-    {
-      "type": "map",
-      "value": {
-        "src": "harborMap.png"
-      }
     },
     {
       "type": "text",
@@ -118,10 +108,6 @@
       "value": "Though the door allowing Americans into Cuba continues to widen, it hasn’t completely opened — in order to enter the country, U.S. citizens must be going for one of 12 specific reasons issued by the Office of Foreign Assets Control (OFAC), an office of the U.S. Department of Treasury that enforces economic and trade sanctions. These reasons include family visits, journalistic activity, educational activity and humanitarian projects, but according to the treasury department, a traveler is not allowed to visit Cuba for the pure purpose of tourism."
     },
     {
-      "type": "slider",
-      "value": {}
-    },
-    {
       "type": "text",
       "value": "But this doesn’t keep Americans from frequenting typical Cuban tourist attractions once their approved reasons have gotten them in the country, like visiting museums, dining at restaurants and enjoying taxi rides along the Malecón. It’s for this reason — the fact that tourism isn’t something that can be so explicitly controlled — that Orlando’s industry is continuing to excel, though its effects are mainly noticed in a specific concentration of the country: Old Havana."
     },
@@ -140,12 +126,6 @@
     {
       "type": "text",
       "value": "This disparity is two sided; visitors aren’t coming in to Regla, but they aren’t going out, either. Orlando is their resident roamer, a sojourner that crosses into Havana every day and gathers relics of the rest of the world to share with his community. What’s Santiago like? How about Los Angeles? The United States? The questions come mostly from older people, ones who feel worlds apart from the Facebook fanatics now flocking to their country. They’re happy asking Orlando their questions, and he’s happy being their window to the rest of the world."
-    },
-    {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/poem.ejs"
-      }
     },
     {
       "type": "subhead",
@@ -225,12 +205,6 @@
       "value": "Orlando doesn’t like talking about the money he’s making, he doesn’t like showing off. His mom thinks it’s great — Orlando says she jokes that she wants a flat screen television — but sometimes his dad seems sad about the situation. Orlando reminds them it’s not his money, it’s the family’s money. That’s why he puts it toward little luxuries like new floors and a gleaming new door — they’re practical renovations, yes, but they put a glisten back into his dad’s eyes that comes with having a purpose, something Orlando fears his dad is missing since retiring. For Orlando, that 1,000-dollar glisten doesn’t seem overpriced."
     },
     {
-      "type": "interactive",
-      "value": {
-        "filename": "interactives/moneyslider.ejs"
-      }
-    },
-    {
       "type": "subhead",
       "value": {
         "text": "“Because we’re creative”"
@@ -267,80 +241,6 @@
     {
       "type": "text",
       "value": "Orlando doesn’t know how his two worlds will merge in the upcoming years. But for now, that’s okay. There’s a ferry that can bridge them for him."
-    }
-  ],
-  "slider-images": [
-    {
-      "src": "harbor_sl_01.jpg",
-      "alt": "Child riding ferry in Havana",
-      "attribution": "Robert Gourley",
-      "caption": "Yosue Soto rides a ferry from Havana to school in Regla, Cuba, as the sun rises over the harbor."
-    },
-    {
-      "src": "harbor_sl_02.jpg",
-      "alt": "The old ferry station in Regla",
-      "attribution": "Robert Gourley",
-      "caption": "The old ferry station in Regla in the foreground with Old Havana and a cruise ship in the distance. The morning ferry carries passengers to Regla."
-    },
-    {
-      "src": "harbor_sl_03.jpg",
-      "alt": "Fisherman casting net in Havana",
-      "attribution": "Veasey Conway",
-      "caption": "Casting for minnows, a fisherman throws a net into Havana Harbor in Regla amid ruins of an old pier."
-    },
-    {
-      "src": "harbor_sl_04.jpg",
-      "alt": "Flowers in Havana’s harbor",
-      "attribution": "Robert Gourley",
-      "caption": "Flowers thrown into the water during a Santeria ritual float in the harbor with Old Havana in the distance."
-    },
-    {
-      "src": "harbor_sl_05.jpg",
-      "alt": "Neighborhood of Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "The neighborhood of Regla is seen from Lenin Hill. “Regla is known for raising tough people,” said Orlando Méndez."
-    },
-    {
-      "src": "harbor_sl_06.jpg",
-      "alt": "Girl skips with family in Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "A young girl skips along with her parents after stepping off the ferry in Regla. The ferry represents a lifeline for Regla residents -- it transports professionals and schoolchildren alike."
-    },
-    {
-      "src": "harbor_sl_07.jpg",
-      "alt": "Kids play soccer on the streets of Regla",
-      "attribution": "Robert Gourley",
-      "caption": "Young men play soccer in a parking lot on Lenin Hill in Regla."
-    },
-    {
-      "src": "harbor_sl_08.jpg",
-      "alt": "Cuban boys use payphones in Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "Uniformed boys use payphones on a streetcorner in Regla. While payphones are nearly extinct in the United States, the colorful bulb-shaped hoods are common sights around Havana."
-    },
-    {
-      "src": "harbor_sl_09.jpg",
-      "alt": "Horse grazes near Lenin Hill in Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "A horse grazes near Lenin Hill in front of a mural. In Regla, like over parts of Havana, transportation options range from bicycles to cars to horse-drawn carts."
-    },
-    {
-      "src": "harbor_sl_10.jpg",
-      "alt": "Boy rests on a bust of Vladimir Lenin in Regla, Havana, Cuba",
-      "attribution": "Veasey Conway",
-      "caption": "Angel rests on a bust of Vladimir Lenin during a pickup soccer game on Lenin Hill in Regla. On the day of Vladimir Lenin’s funeral in 1924, thousands of Cubans flocked to the hill."
-    },
-    {
-      "src": "harbor_sl_11.jpg",
-      "alt": "Man rides morning ferry to Regla, Cuba",
-      "attribution": "Robert Gourley",
-      "caption": "A man rides the early morning ferry to Regla."
-    },
-    {
-      "src": "harbor_sl_12.jpg",
-      "alt": "Long exposure of Regla neighborhood at night",
-      "attribution": "Robert Gourley",
-      "caption": "A bus drives through a quiet neighborhood in Regla."
     }
   ]
 }

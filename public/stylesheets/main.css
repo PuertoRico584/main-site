@@ -321,10 +321,10 @@ further down on the page or in any of the other .SCSS files.
   transition-property: none; }
 
 .harbor.subhead {
-  color: pink; }
+  color: lightblue; }
 
 .harbor.title {
-  color: pink;
+  color: lightblue;
   width: 100%;
   margin-left: auto;
   margin-right: auto; }
@@ -333,7 +333,7 @@ further down on the page or in any of the other .SCSS files.
   font-size: 2.7em; }
 
 .harbor.interactive {
-  color: pink; }
+  color: lightblue; }
 
 .harbor.nav-title-footer:after {
   content: '';
@@ -379,11 +379,11 @@ further down on the page or in any of the other .SCSS files.
   color: #fff; }
   .harbor.nav-title:hover:after {
     width: 100%;
-    background: pink; }
+    background: lightblue; }
 
 .harbor.nav-title.active-nav:after {
   width: 100%;
-  background: pink;
+  background: lightblue;
   transition-property: none; }
 
 .harbor.mobile-active-nav span {
@@ -396,7 +396,7 @@ further down on the page or in any of the other .SCSS files.
   height: 3px;
   width: 100%;
   margin-top: -3%;
-  background: pink;
+  background: lightblue;
   transition-property: none; }
 
 .about.subhead {
@@ -828,7 +828,7 @@ nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
   .harbor.change-mobile-bg {
     background: none;
     background-size: cover;
-    color: pink; } }
+    color: lightblue; } }
 
 @media screen and (max-width: 570px) and (min-width: 1020px) {
   .about.change-mobile-bg {
