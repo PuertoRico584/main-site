@@ -16,7 +16,7 @@ This App is perfect for longform multimedia projects.
 
 3. Clone this repository by running:
 
-  `git clone https://github.com/PuertoRico584/node-sandbox'
+  `git clone https://github.com/PuertoRico584/node-sandbox`
 
   And then cd into that folder:
 
