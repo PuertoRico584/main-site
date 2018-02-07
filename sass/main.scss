@@ -13,7 +13,6 @@ further down on the page or in any of the other .SCSS files.
             }
             &.title {
               color: nth($i,2);
-              // width: 70%;
               width:100%;
               margin-left: auto;
               margin-right: auto;
@@ -23,21 +22,6 @@ further down on the page or in any of the other .SCSS files.
             }
             &.interactive{
               color: nth($i, 2);
-            }
-            &.change-bg{
-              background: url("textures/" + nth($i, 1) + ".JPG") no-repeat;
-              background-size:cover;
-              color: nth($i, 2);
-              background-color: nth($i, 2);
-            }
-            @include media("screen", ">=md"){
-              &.change-mobile-bg{
-                    background: none;
-                    background-size:cover;
-                    color: nth($i, 2);
-                    background-color: nth($i, 2);
-                    height: 45px;
-                  }
             }
             &.nav-title-footer{
               &:after{
@@ -101,13 +85,12 @@ further down on the page or in any of the other .SCSS files.
               }
 
               &:hover{
-
+                color: #fff;
                 &:after{
                   width:100%;
                   background:nth($i, 2);
                 }
               }
-
               &.active-nav{
                 &:after{
                   width: 100%;
@@ -181,7 +164,6 @@ p {margin-bottom: 1.3em;
 line-height: 2em;}
 
 h1, h2, h3, h4 {
-  // margin: 1.414em 0 0.5em;
   font-family: $montserrat;
   line-height: 1.2;
 }
@@ -219,7 +201,6 @@ h4 {font-size: 1.125em;
     color:$github!important;
   }
 }
-
 .italic {
   font-style: italic;
 }
@@ -236,29 +217,21 @@ header {
 }
 /* ------------------ HOMEPAGE ------------------ */
 .homepage {
-  background-image:url(http://sliceinteractive.com/mejo584/wavvy.jpg);
-  background-size:cover;
+  background-image: url(http://sliceinteractive.com/mejo584/wavvy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 /* ------------------ Navigation ------------------ */
 
 header{
-  -webkit-box-shadow: 0 -11px 36px 10px rgba(0,0,0, .3);
-  box-shadow: 0 -11px 36px 10px rgba(0,0,0, .3);
-  position: fixed;
   left:0;
   margin:0;
   padding:0;
   width:100%;
   z-index:9;
-  transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -webkit-transition:all 0.3s linear;
-
 }
-
-
 nav {
   height: $nav-height;
   background-color: #000;
@@ -269,8 +242,6 @@ nav {
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
-
-
   ul {
   display: flex;
   justify-content: space-around;
@@ -278,7 +249,6 @@ nav {
   padding: 0;
   font-weight: 400;
   margin:0;
-
     a {
       color: #fff;
       position: relative;
@@ -286,10 +256,7 @@ nav {
       background-color:transparent;
       //for hover styles, look at mix-in
     }
-
-
   }
-
   .wrapper {
     margin: 0 auto;
     width:100%;
@@ -303,7 +270,6 @@ nav {
   .label-toggle {
     display: none;
   }
-
   #menu-toggle {
     display: none;
   }
@@ -314,29 +280,10 @@ nav {
   .nav-icons {
     flex-wrap: wrap;
     margin:0;
-
   }
   .logo-wrapper {
     margin-left:20px;
-
-
-    #svg-logo{
-      // height:inherit;
-      width:170px;
-    }
-    // #svg-splash{
-    //   width:100px;
-    // }
-    // #svg-text{
-    //   width:200px;
-    // }
   }
-
-  .nav-dot-sep {
-    font-size: 2em;
-    margin-top: -11px;
- }
-
   .sm-icons {
     display: inline-flex;
     flex-direction: row;
@@ -365,47 +312,35 @@ nav {
      height:27px;
      border-left: 1px solid $dark-gray;
    }
-
    #trans-btn, #about-btn {
      font-size: .9em;
    }
-
     a{
       color:#fff;
       text-decoration:none;
     }
   }
-
-
   .trans-wrapper{
-
     #trans-btn{
-
       &:hover{
         cursor:pointer;
         font-weight:600;
       }
     }
-
     hr{
       width:13pt;
       margin:0;
     }
   }
-
   .about-wrapper {
-
     #about-btn{
-
       &:hover{
         cursor:pointer;
         font-weight:600;
       }
     }
   }
-
 }
-
   .default {
       top: 0;
   }
@@ -413,13 +348,7 @@ nav {
       top: -85px;
   }
 
-  #replay-btn {
-    display: none;
-  }
-
-
   /* ------- MOBILE NAVIGATION --------*/
-
 
 .overlay{
   height: 100%;
@@ -654,11 +583,6 @@ nav {
 
     }
 
-    .interactive-wrapper-intro p {
-      width: initial;
-    }
-
-
 }
 
   @include media("screen", "<=sm"){
@@ -713,32 +637,5 @@ nav {
       nav .nav-icons {
         display: none;
       }
-
     }
-
-    .interactive-wrapper {
-      width:80%;
-      border-top:1px $dark-gray solid;
-      border-bottom:1px $dark-gray solid;
-      margin:1.4em auto;
-      padding: 1.4em 0;
-      overflow:hidden;
-    }
-
-    .interactive-wrapper-intro{
-      h1 {
-        font-size: 2.5em;
-        }
-      h2 {
-        font-size:1.2em;
-        margin-top:10px;
-        }
-        .expand-collapse {
-          margin-top: 5%;
-          text-align: center;
-        }
-    }
-
-
-
   }

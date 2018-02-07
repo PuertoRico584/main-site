@@ -19,20 +19,6 @@ further down on the page or in any of the other .SCSS files.
 .hiphop.interactive {
   color: #F1861B; }
 
-.hiphop.change-bg {
-  background: url("textures/hiphop.JPG") no-repeat;
-  background-size: cover;
-  color: #F1861B;
-  background-color: #F1861B; }
-
-@media screen and (min-width: 1020px) {
-  .hiphop.change-mobile-bg {
-    background: none;
-    background-size: cover;
-    color: #F1861B;
-    background-color: #F1861B;
-    height: 45px; } }
-
 .hiphop.nav-title-footer:after {
   content: '';
   display: block;
@@ -73,9 +59,11 @@ further down on the page or in any of the other .SCSS files.
   background: transparent;
   transition: width .8s ease, background-color .8s ease; }
 
-.hiphop.nav-title:hover:after {
-  width: 100%;
-  background: #F1861B; }
+.hiphop.nav-title:hover {
+  color: #fff; }
+  .hiphop.nav-title:hover:after {
+    width: 100%;
+    background: #F1861B; }
 
 .hiphop.nav-title.active-nav:after {
   width: 100%;
@@ -109,20 +97,6 @@ further down on the page or in any of the other .SCSS files.
 
 .dorian.interactive {
   color: #9BD5BB; }
-
-.dorian.change-bg {
-  background: url("textures/dorian.JPG") no-repeat;
-  background-size: cover;
-  color: #9BD5BB;
-  background-color: #9BD5BB; }
-
-@media screen and (min-width: 1020px) {
-  .dorian.change-mobile-bg {
-    background: none;
-    background-size: cover;
-    color: #9BD5BB;
-    background-color: #9BD5BB;
-    height: 45px; } }
 
 .dorian.nav-title-footer:after {
   content: '';
@@ -164,9 +138,11 @@ further down on the page or in any of the other .SCSS files.
   background: transparent;
   transition: width .8s ease, background-color .8s ease; }
 
-.dorian.nav-title:hover:after {
-  width: 100%;
-  background: #9BD5BB; }
+.dorian.nav-title:hover {
+  color: #fff; }
+  .dorian.nav-title:hover:after {
+    width: 100%;
+    background: #9BD5BB; }
 
 .dorian.nav-title.active-nav:after {
   width: 100%;
@@ -200,20 +176,6 @@ further down on the page or in any of the other .SCSS files.
 
 .skate.interactive {
   color: #A089CE; }
-
-.skate.change-bg {
-  background: url("textures/skate.JPG") no-repeat;
-  background-size: cover;
-  color: #A089CE;
-  background-color: #A089CE; }
-
-@media screen and (min-width: 1020px) {
-  .skate.change-mobile-bg {
-    background: none;
-    background-size: cover;
-    color: #A089CE;
-    background-color: #A089CE;
-    height: 45px; } }
 
 .skate.nav-title-footer:after {
   content: '';
@@ -255,9 +217,11 @@ further down on the page or in any of the other .SCSS files.
   background: transparent;
   transition: width .8s ease, background-color .8s ease; }
 
-.skate.nav-title:hover:after {
-  width: 100%;
-  background: #A089CE; }
+.skate.nav-title:hover {
+  color: #fff; }
+  .skate.nav-title:hover:after {
+    width: 100%;
+    background: #A089CE; }
 
 .skate.nav-title.active-nav:after {
   width: 100%;
@@ -291,20 +255,6 @@ further down on the page or in any of the other .SCSS files.
 
 .family.interactive {
   color: #F0BD53; }
-
-.family.change-bg {
-  background: url("textures/family.JPG") no-repeat;
-  background-size: cover;
-  color: #F0BD53;
-  background-color: #F0BD53; }
-
-@media screen and (min-width: 1020px) {
-  .family.change-mobile-bg {
-    background: none;
-    background-size: cover;
-    color: #F0BD53;
-    background-color: #F0BD53;
-    height: 45px; } }
 
 .family.nav-title-footer:after {
   content: '';
@@ -346,9 +296,11 @@ further down on the page or in any of the other .SCSS files.
   background: transparent;
   transition: width .8s ease, background-color .8s ease; }
 
-.family.nav-title:hover:after {
-  width: 100%;
-  background: #F0BD53; }
+.family.nav-title:hover {
+  color: #fff; }
+  .family.nav-title:hover:after {
+    width: 100%;
+    background: #F0BD53; }
 
 .family.nav-title.active-nav:after {
   width: 100%;
@@ -382,20 +334,6 @@ further down on the page or in any of the other .SCSS files.
 
 .harbor.interactive {
   color: pink; }
-
-.harbor.change-bg {
-  background: url("textures/harbor.JPG") no-repeat;
-  background-size: cover;
-  color: pink;
-  background-color: pink; }
-
-@media screen and (min-width: 1020px) {
-  .harbor.change-mobile-bg {
-    background: none;
-    background-size: cover;
-    color: pink;
-    background-color: pink;
-    height: 45px; } }
 
 .harbor.nav-title-footer:after {
   content: '';
@@ -437,9 +375,11 @@ further down on the page or in any of the other .SCSS files.
   background: transparent;
   transition: width .8s ease, background-color .8s ease; }
 
-.harbor.nav-title:hover:after {
-  width: 100%;
-  background: pink; }
+.harbor.nav-title:hover {
+  color: #fff; }
+  .harbor.nav-title:hover:after {
+    width: 100%;
+    background: pink; }
 
 .harbor.nav-title.active-nav:after {
   width: 100%;
@@ -473,20 +413,6 @@ further down on the page or in any of the other .SCSS files.
 
 .about.interactive {
   color: #997A65; }
-
-.about.change-bg {
-  background: url("textures/about.JPG") no-repeat;
-  background-size: cover;
-  color: #997A65;
-  background-color: #997A65; }
-
-@media screen and (min-width: 1020px) {
-  .about.change-mobile-bg {
-    background: none;
-    background-size: cover;
-    color: #997A65;
-    background-color: #997A65;
-    height: 45px; } }
 
 .about.nav-title-footer:after {
   content: '';
@@ -528,9 +454,11 @@ further down on the page or in any of the other .SCSS files.
   background: transparent;
   transition: width .8s ease, background-color .8s ease; }
 
-.about.nav-title:hover:after {
-  width: 100%;
-  background: #997A65; }
+.about.nav-title:hover {
+  color: #fff; }
+  .about.nav-title:hover:after {
+    width: 100%;
+    background: #997A65; }
 
 .about.nav-title.active-nav:after {
   width: 100%;
@@ -612,21 +540,17 @@ header {
 /* ------------------ HOMEPAGE ------------------ */
 .homepage {
   background-image: url(http://sliceinteractive.com/mejo584/wavvy.jpg);
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 /* ------------------ Navigation ------------------ */
 header {
-  -webkit-box-shadow: 0 -11px 36px 10px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 -11px 36px 10px rgba(0, 0, 0, 0.3);
-  position: fixed;
   left: 0;
   margin: 0;
   padding: 0;
   width: 100%;
-  z-index: 9;
-  transition: all 0.3s linear;
-  -moz-transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear; }
+  z-index: 9; }
 
 nav {
   height: 40px;
@@ -671,11 +595,6 @@ nav {
     margin: 0; }
   nav .logo-wrapper {
     margin-left: 20px; }
-    nav .logo-wrapper #svg-logo {
-      width: 170px; }
-  nav .nav-dot-sep {
-    font-size: 2em;
-    margin-top: -11px; }
   nav .sm-icons {
     display: inline-flex;
     flex-direction: row;
@@ -715,9 +634,6 @@ nav {
 
 .fixed {
   top: -85px; }
-
-#replay-btn {
-  display: none; }
 
 /* ------- MOBILE NAVIGATION --------*/
 .overlay {
@@ -882,9 +798,7 @@ nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
   nav .wrapper {
     width: 90vw; }
   nav .logo-wrapper #svg-logo {
-    width: 200px; }
-  .interactive-wrapper-intro p {
-    width: initial; } }
+    width: 200px; } }
 
 @media screen and (max-width: 570px) and (min-width: 1020px) {
   .hiphop.change-mobile-bg {
@@ -946,19 +860,4 @@ nav .sm-icons #trans-btn, nav .sm-icons #about-btn {
       nav .logo-wrapper #svg-logo {
         width: 130px; }
     nav nav .nav-icons {
-      display: none; }
-  .interactive-wrapper {
-    width: 80%;
-    border-top: 1px #696969 solid;
-    border-bottom: 1px #696969 solid;
-    margin: 1.4em auto;
-    padding: 1.4em 0;
-    overflow: hidden; }
-  .interactive-wrapper-intro h1 {
-    font-size: 2.5em; }
-  .interactive-wrapper-intro h2 {
-    font-size: 1.2em;
-    margin-top: 10px; }
-  .interactive-wrapper-intro .expand-collapse {
-    margin-top: 5%;
-    text-align: center; } }
+      display: none; } }
