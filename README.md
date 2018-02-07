@@ -1,5 +1,6 @@
-# Puerto Rico 584 Main Site
+# Wavy - A Node App
 From Cuba's News Wave - Node App written by Lindsay Carbonell & Kate Boyd
+This App is perfect for longform multimedia projects.
 
 ## Installation
 
