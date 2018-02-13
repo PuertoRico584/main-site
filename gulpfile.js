@@ -13,7 +13,7 @@ var navSpanish = ["Navigacion 1", "Navigacion 2", "Navigacion 3", "Navigacion 4"
 
 gulp.task('connect', function(){
 
-  app.set('port', (process.env.PORT || 5000));
+  app.set('port', (process.env.PORT || 8080));
   console.log("Testing - Willpower");
   app.use(express.static(__dirname + '/public'));
 
