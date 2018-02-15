@@ -81,12 +81,6 @@ header {
   padding: 1rem; }
 
 /* ------------------ HOMEPAGE ------------------ */
-.homepage {
-  background-image: url(http://sliceinteractive.com/mejo584/wavvy.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-
 /* ------------------ Navigation ------------------ */
 header {
   left: 0;

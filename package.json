@@ -15,9 +15,9 @@
     "body-parser": "^1.16.1",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "fullpage.js": "^2.9.2",
-    "google-auth-library": "^1.1.0",
-    "googleapis": "^25.0.0",
+    "fullpage.js": "^2.9.6",
+    "google-auth-library": "^1.2.1",
+    "googleapis": "^26.0.1",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "json": "^9.0.4"
