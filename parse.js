@@ -22,6 +22,7 @@ var SCOPES = ['https://www.googleapis.com/auth/drive'];
 var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
     process.env.USERPROFILE) + '/.credentials/';
 var TOKEN_PATH = TOKEN_DIR + 'drive-api-quickstart.json';
+console.log(TOKEN_DIR);
 
 // Load client secrets from a local file.
 var oauth2Client;
@@ -64,10 +65,10 @@ function authorize(credentials, callback) {
  * Get and store new token after prompting for user authorization, and then
  * execute the given callback with the authorized OAuth2 client.
  *
- * @param {google.auth.OAuth2} oauth2Client The OAuth2 client to get token for.
- * @param {getEventsCallback} callback The callback to call with the authorized
- *     client.
- */
+ @param {google.auth.OAuth2} oauth2Client The OAuth2 client to get token for.
+* @param {getEventsCallback} callback The callback to call with the authorized
+*     client.
+**/
 function getNewToken(oauth2Client, callback) {
   var authUrl = oauth2Client.generateAuthUrl({
     access_type: 'offline',
@@ -152,7 +153,7 @@ function getExportLink(auth){
   for (i in fileIds){
   (function(i){
     var currentTopic = i;
-    var service = google.drive('v3');
+    var service = google.drive('v2');
     var request = service.files.get({
       auth: auth,
       fileId: fileIds[i]
