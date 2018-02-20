@@ -9,24 +9,15 @@ module.exports = exports;
 // Edit the file ID for the Google Doc. Be sure it's set to the "Share" preferences to "anyone on the internet"
 //var fileId = '1eXbE48sI_6qaGeU6gCE3gv3Pw1L5xFapiiKRCKxqX0c';
 var fileIds = {
-    "hiphop": "1ieI3nN9jke_bAr7sK9VQAI9NMhWTKivI6ttv3iGBhRQ",
-    "hiphopespanol": "1ZZaEkkP_Y7cDVmgrBRsfPpk_GVvnAnNKqL18Dg32ins",
-    "harbor": "1hYVU1e8l0vP7U5vGmWJY1k2B7mnjHpQi1qd4gn9xkFE",
-    "harborespanol": "1tH-m6bW_3YiGFtH7_Sd_DJDxIKAKJl_rdErOeSUmQ0s",
-    "dorian": "1GVusAF86-rrv6RwSMF_H47xO2eG2tVayfumcj7Q1akM",
-    "dorianespanol": "1Xw8ruEIxYb7JykzH1MLcniNYjY_ck5BmH0j_AyXJUfw",
-    "family": "1RY9sG1oazoFfE9ZGEK9U3zaAmyOJB6mYcc6VDKy7xBA",
-    "skate": "1M1o12fbc33KOhkNJl-Vagimqbm3Diof-cKVbNvZuFi0",
-    "familyespanol": "1RgGokPsPC_3UOU456wH8jcJmpG2t5TZ5nn9ucwC3yN4",
-    "skate": "1M1o12fbc33KOhkNJl-Vagimqbm3Diof-cKVbNvZuFi0",
-    "skateespanol": "1-hkABBltJ4dIrOueAgHyT16wra6o3YmFBzwily49I0Y"
+    "sample-story": "1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40",
+    "sample-storyespanol": "1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40"
 }
 
 module.exports.sendIds = function(){
   return fileIds;
 }
 
-// Overall varibales
+// Overall variables
 var SCOPES = ['https://www.googleapis.com/auth/drive'];
 var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
     process.env.USERPROFILE) + '/.credentials/';
