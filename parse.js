@@ -140,7 +140,7 @@ function sendIt(data, currentTopic){
 
   var fileLocation = './public/data/' + currentTopic + '.json';
 
-  fs.writeFileSync(fileLocation, JSON.stringify(data,null,2));
+  fs.writeFileSync(fileLocation, JSON.stringify(data,null,3));
 
 }
 /**
@@ -152,7 +152,7 @@ function getExportLink(auth){
   for (i in fileIds){
   (function(i){
     var currentTopic = i;
-    var service = google.drive('v2');
+    var service = google.drive('v3');
     var request = service.files.get({
       auth: auth,
       fileId: fileIds[i]
