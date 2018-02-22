@@ -10,7 +10,8 @@ module.exports = exports;
 //var fileId = '1eXbE48sI_6qaGeU6gCE3gv3Pw1L5xFapiiKRCKxqX0c';
 var fileIds = {
     "sample-story": "1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40",
-    "sample-storyespanol": "1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40"
+    "sample-storyespanol": "1nY3TYMC_FOIvKTL-8wBY4kuvKuowSrP5LxElL_QMw40",
+    "testing": "1A6umzXWEGbOOsuFd5JHvgcmrsusKhKZJGzFjutwj-PQ"
 }
 
 module.exports.sendIds = function(){
