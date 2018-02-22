@@ -1,6 +1,6 @@
 var readline = require('readline');
-var google = require('googleapis');
-const { GoogleAuth, OAuth2Client } = require('google-auth-library');
+const {google} = require('googleapis');
+const googleAuth = require('google-auth-library');
 var archieml = require('archieml');
 var fs = require('fs');
 var data = "";
@@ -17,7 +17,7 @@ module.exports.sendIds = function(){
   return fileIds;
 }
 
-// Overall varianles
+// Overall varibales
 var SCOPES = ['https://www.googleapis.com/auth/drive'];
 var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
     process.env.USERPROFILE) + '/.credentials/';
@@ -32,7 +32,6 @@ fs.readFile('client_secret.json', function processClientSecrets(err, content) {
   }
   // Authorize a client with the loaded credentials, then call the
   // Drive API.
-  console.log(JSON.parse(content));
   authorize(JSON.parse(content), getExportLink);
 });
 
@@ -47,8 +46,8 @@ function authorize(credentials, callback) {
   var clientSecret = credentials.installed.client_secret;
   var clientId = credentials.installed.client_id;
   var redirectUrl = credentials.installed.redirect_uris[0];
-  var auth = new GoogleAuth();
-  var oauth2Client = new OAuth2Client(clientId, clientSecret, redirectUrl);
+  var auth = new googleAuth();
+  oauth2Client = new auth.OAuth2(clientId, clientSecret, redirectUrl);
 
   // Check if we have previously stored a token.
   fs.readFile(TOKEN_PATH, function(err, token) {
@@ -153,7 +152,6 @@ function getExportLink(auth){
   for (i in fileIds){
   (function(i){
     var currentTopic = i;
-    console.log('Got here tho');
     var service = google.drive('v2');
     var request = service.files.get({
       auth: auth,

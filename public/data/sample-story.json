@@ -3,26 +3,26 @@
     "class": "harbor"
   },
   "header": {
-    "text": "Sample Story",
-    "seo": "Sample Story: Inner page of the Wavy Node app",
-    "subtitle": "Sample subtitle"
+    "text": "Across the Harbor",
+    "seo": "Across the Harbor: A young Cuban who works in tourism bridges two worlds through his daily commute to Regla",
+    "subtitle": "One commute bridges two worlds"
   },
   "reporters": [
     {
-      "name": "John Doe"
+      "name": "Kiana Cole"
     }
   ],
   "videographers": [
     {
-      "name": "Jim Doe"
+      "name": "Veasey Conway"
     },
     {
-      "name": "Courtney Doe"
+      "name": "Rob Gourley"
     }
   ],
   "designers": [
     {
-      "name": "Elizabeth Doe"
+      "name": "Peyton Chance"
     }
   ],
   "text": [
@@ -56,14 +56,6 @@
     {
       "type": "text",
       "value": "But on the other side of the harbor, it’s different. And when Orlando says goodnight to Havana every evening as he retreats into Regla, he says goodnight to a part of himself he won’t see again until morning."
-    },
-    {
-      "type": "video",
-      "value": {
-        "title": "Explore in 360: Orlando’s Commute",
-        "id": "213020533",
-        "is360": "true"
-      }
     },
     {
       "type": "text",
