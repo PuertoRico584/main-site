@@ -1,6 +1,6 @@
 var readline = require('readline');
 var google = require('googleapis');
-var googleAuth = require('google-auth-library');
+const { GoogleAuth, OAuth2Client } = require('google-auth-library');
 var archieml = require('archieml');
 var fs = require('fs');
 var data = "";
@@ -17,12 +17,11 @@ module.exports.sendIds = function(){
   return fileIds;
 }
 
-// Overall variables
+// Overall varianles
 var SCOPES = ['https://www.googleapis.com/auth/drive'];
 var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
     process.env.USERPROFILE) + '/.credentials/';
 var TOKEN_PATH = TOKEN_DIR + 'drive-api-quickstart.json';
-console.log(TOKEN_DIR);
 
 // Load client secrets from a local file.
 var oauth2Client;
@@ -33,6 +32,7 @@ fs.readFile('client_secret.json', function processClientSecrets(err, content) {
   }
   // Authorize a client with the loaded credentials, then call the
   // Drive API.
+  console.log(JSON.parse(content));
   authorize(JSON.parse(content), getExportLink);
 });
 
@@ -47,8 +47,8 @@ function authorize(credentials, callback) {
   var clientSecret = credentials.installed.client_secret;
   var clientId = credentials.installed.client_id;
   var redirectUrl = credentials.installed.redirect_uris[0];
-  var auth = new googleAuth();
-  oauth2Client = new auth.OAuth2(clientId, clientSecret, redirectUrl);
+  var auth = new GoogleAuth();
+  var oauth2Client = new OAuth2Client(clientId, clientSecret, redirectUrl);
 
   // Check if we have previously stored a token.
   fs.readFile(TOKEN_PATH, function(err, token) {
@@ -65,10 +65,10 @@ function authorize(credentials, callback) {
  * Get and store new token after prompting for user authorization, and then
  * execute the given callback with the authorized OAuth2 client.
  *
- @param {google.auth.OAuth2} oauth2Client The OAuth2 client to get token for.
-* @param {getEventsCallback} callback The callback to call with the authorized
-*     client.
-**/
+ * @param {google.auth.OAuth2} oauth2Client The OAuth2 client to get token for.
+ * @param {getEventsCallback} callback The callback to call with the authorized
+ *     client.
+ */
 function getNewToken(oauth2Client, callback) {
   var authUrl = oauth2Client.generateAuthUrl({
     access_type: 'offline',
@@ -141,7 +141,7 @@ function sendIt(data, currentTopic){
 
   var fileLocation = './public/data/' + currentTopic + '.json';
 
-  fs.writeFileSync(fileLocation, JSON.stringify(data,null,3));
+  fs.writeFileSync(fileLocation, JSON.stringify(data,null,2));
 
 }
 /**
@@ -153,6 +153,7 @@ function getExportLink(auth){
   for (i in fileIds){
   (function(i){
     var currentTopic = i;
+    console.log('Got here tho');
     var service = google.drive('v2');
     var request = service.files.get({
       auth: auth,
