@@ -1,27 +1,23 @@
-var viewportWidth;
-
-
 $(document).ready(function(){
-  viewportWidth = $(window).width();
-  pageVideo = document.getElementById('home-video');
-  replayVideoHeight = $(pageVideo).height();
-  // toggleWrapper();
+  // $("#click-me").hover(function () {
+  //   $("#click-event").toggle();
+  // });
+  var clickMe = $("#click-event");
+  var clickMe2 = $("#click-event2");
+  var clickMe3 = $("#click-event3");
+  var clickMe4 = $("#click-event4");
+
+  $(clickMe2).hide();
+  $(clickMe3).hide();
+  $(clickMe4).hide();
+
+  $("#click-me2").hover(function () {
+    $("#click-event2").fadeToggle();
+  });
+  $("#click-me3").hover(function () {
+    $("#click-event3").fadeToggle();
+  });
+  $("#click-me4").hover(function () {
+    $("#click-event4").fadeToggle();
+  });
 });
-
-$(window).resize(function(){
-  viewportWidth = $(window).width();
-  replayVideoHeight = $(pageVideo).height();
-  // toggleWrapper();
-});
-
-function showReplay() {
-  $('#replay-btn').show();
-}
-
-function replayVideo() {
-  pageVideo.play();
-  var videoOverlay = document.getElementById('video_overlay');
-  var overlayClone = videoOverlay.cloneNode(true);
-  videoOverlay.parentNode.replaceChild(overlayClone, videoOverlay);
-  $('#replay-btn').hide();
-}
