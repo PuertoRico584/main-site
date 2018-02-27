@@ -4,6 +4,7 @@ const googleAuth = require('google-auth-library');
 var archieml = require('archieml');
 var fs = require('fs');
 var data = "";
+var folder;
 module.exports = exports;
 
 // Edit the file ID for the Google Doc. Be sure it's set to the "Share" preferences to "anyone on the internet"
@@ -166,7 +167,6 @@ function getExportLink(auth){
       var exportLink = response['exportLinks']['text/plain'];
 
       getFileContents(exportLink, currentTopic);
-
     });
   })(i);
 }
